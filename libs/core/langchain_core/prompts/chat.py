@@ -982,6 +982,8 @@ class ChatPromptTemplate(BaseChatPromptTemplate):
             "partial_variables": partial_vars,
             **kwargs,
         }
+        if template_format == "f-string" and any("." in v for v in kwargs['input_variables'] + kwargs['optional_variables'] + list(kwargs['partial_variables'].keys())):
+            raise ValueError("Invalid f-string template variable. Cannot access input object attributes (cannot have '.' in variables).")
         cast("type[ChatPromptTemplate]", super()).__init__(messages=messages_, **kwargs)
 
     @classmethod
