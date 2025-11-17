@@ -107,6 +107,13 @@ vercel-build: install-vercel-deps build generate-references
 	rm -rf langchain-api-docs-html
 	NODE_OPTIONS="--max-old-space-size=5000" yarn run docusaurus build
 
+actions-build: build generate-references
+	rm -rf docs
+	mv $(OUTPUT_NEW_DOCS_DIR) docs
+	cp -r ../libs/cli/langchain_cli/integration_template src/theme
+	rm -rf build
+	NODE_OPTIONS="--max-old-space-size=5000" yarn run docusaurus build
+
 start:
 	@echo "🚀 Starting documentation server on port $(PORT)..."
 	@echo "📖 Installing Node.js dependencies..."

@@ -5,7 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "rm -rf ./docs/api && docusaurus start",
-    "build": "make vercel-build",
+    "build": "make actions-build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -19,7 +19,7 @@
     "format:check": "prettier --check \"**/*.{js,jsx,ts,tsx,md,mdx}\"",
     "gen": "yarn gen:supabase",
     "gen:supabase": "npx supabase gen types typescript --project-id 'xsqpnijvmbodcxyapnyq' --schema public > ./src/supabase.d.ts",
-    "check-broken-links": "make vercel-build && node ./scripts/check-broken-links.js"
+    "check-broken-links": "make actions-build && node ./scripts/check-broken-links.js"
   },
   "dependencies": {
     "@docusaurus/core": "3.5.2",
