@@ -362,7 +362,7 @@ and the values in these fields should be concise and LLM-usable.
 
 `_run` is the main method that should be implemented in the subclass. This method
 takes in the arguments from `args_schema` and runs the tool, returning a string
-response. This method is usually called in a LangGraph [`ToolNode`](https://langchain-ai.github.io/langgraph/how-tos/tool-calling/), and can also be called in a legacy
+response. This method is usually called in a LangGraph [`ToolNode`](https://langchain-docs-v0-3.github.io/langgraph/how-tos/tool-calling/), and can also be called in a legacy
 `langchain.agents.AgentExecutor`.
 
 `_arun` is optional because by default, `_run` will be run in an async executor.

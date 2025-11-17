@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # How to migrate to LangGraph memory
 
-As of the v0.3 release of LangChain, we recommend that LangChain users take advantage of [LangGraph persistence](https://langchain-ai.github.io/langgraph/concepts/persistence/) to incorporate `memory` into their LangChain application.
+As of the v0.3 release of LangChain, we recommend that LangChain users take advantage of [LangGraph persistence](https://langchain-docs-v0-3.github.io/langgraph/concepts/persistence/) to incorporate `memory` into their LangChain application.
 
 * Users that rely on `RunnableWithMessageHistory` or `BaseChatMessageHistory` do **not** need to make any changes, but are encouraged to consider using LangGraph for more complex use cases.
 * Users that rely on deprecated memory abstractions from LangChain 0.0.x should follow this guide to upgrade to the new LangGraph persistence feature in LangChain 0.3.x.
@@ -52,8 +52,8 @@ At that time, the only option for orchestrating LangChain chains was via [LCEL](
 
 As of LangChain v0.3, we recommend that **new** code takes advantage of LangGraph for both orchestration and persistence:
 
-- Orchestration: In LangGraph, users define [graphs](https://langchain-ai.github.io/langgraph/concepts/low_level/) that specify the flow of the application. This allows users to keep using `LCEL` within individual nodes when `LCEL` is needed, while making it easy to define complex orchestration logic that is more readable and maintainable.
-- Persistence: Users can rely on LangGraph's [persistence](https://langchain-ai.github.io/langgraph/concepts/persistence/) to store and retrieve data. LangGraph persistence is extremely flexible and can support a much wider range of use cases than the `RunnableWithMessageHistory` interface.
+- Orchestration: In LangGraph, users define [graphs](https://langchain-docs-v0-3.github.io/langgraph/concepts/low_level/) that specify the flow of the application. This allows users to keep using `LCEL` within individual nodes when `LCEL` is needed, while making it easy to define complex orchestration logic that is more readable and maintainable.
+- Persistence: Users can rely on LangGraph's [persistence](https://langchain-docs-v0-3.github.io/langgraph/concepts/persistence/) to store and retrieve data. LangGraph persistence is extremely flexible and can support a much wider range of use cases than the `RunnableWithMessageHistory` interface.
 
 :::important
 If you have been using `RunnableWithMessageHistory` or `BaseChatMessageHistory`, you do not need to make any changes. We do not plan on deprecating either functionality in the near future. This functionality is sufficient for simple chat applications and any code that uses `RunnableWithMessageHistory` will continue to work as expected.
@@ -64,9 +64,9 @@ If you have been using `RunnableWithMessageHistory` or `BaseChatMessageHistory`,
 :::info Prerequisites
 
 These guides assume some familiarity with the following concepts:
-- [LangGraph](https://langchain-ai.github.io/langgraph/)
+- [LangGraph](https://langchain-docs-v0-3.github.io/langgraph/)
 - [v0.0.x Memory](https://python.langchain.com/v0.1/docs/modules/memory/)
-- [How to add persistence ("memory") to your graph](https://langchain-ai.github.io/langgraph/how-tos/persistence/)
+- [How to add persistence ("memory") to your graph](https://langchain-docs-v0-3.github.io/langgraph/how-tos/persistence/)
 :::
 
 ### 1. Managing conversation history
@@ -136,10 +136,10 @@ to re-implement these without too much difficulty in custom code.
 
 Explore persistence with LangGraph:
 
-* [LangGraph quickstart tutorial](https://langchain-ai.github.io/langgraph/tutorials/introduction/)
-* [How to add persistence ("memory") to your graph](https://langchain-ai.github.io/langgraph/how-tos/persistence/)
-* [How to manage conversation history](https://langchain-ai.github.io/langgraph/how-tos/memory/manage-conversation-history/)
-* [How to add summary of the conversation history](https://langchain-ai.github.io/langgraph/how-tos/memory/add-summary-conversation-history/)
+* [LangGraph quickstart tutorial](https://langchain-docs-v0-3.github.io/langgraph/tutorials/introduction/)
+* [How to add persistence ("memory") to your graph](https://langchain-docs-v0-3.github.io/langgraph/how-tos/persistence/)
+* [How to manage conversation history](https://langchain-docs-v0-3.github.io/langgraph/how-tos/memory/manage-conversation-history/)
+* [How to add summary of the conversation history](https://langchain-docs-v0-3.github.io/langgraph/how-tos/memory/add-summary-conversation-history/)
 
 Add persistence with simple LCEL (favor langgraph for more complex use cases):
 

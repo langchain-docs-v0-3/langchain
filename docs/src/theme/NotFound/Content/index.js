@@ -85,7 +85,7 @@ const suggestedLinks = {
     ]
   },
   "/docs/expression_language/cookbook/code_writing/": {
-    "canonical": "https://langchain-ai.github.io/langgraph/tutorials/code_assistant/langgraph_code_assistant/",
+    "canonical": "https://langchain-docs-v0-3.github.io/langgraph/tutorials/code_assistant/langgraph_code_assistant/",
     "alternative": [
       "/v0.1/docs/expression_language/cookbook/code_writing/"
     ]
@@ -793,7 +793,7 @@ const suggestedLinks = {
     ]
   },
   "/docs/modules/agents/concepts/": {
-    "canonical": "https://langchain-ai.github.io/langgraph/concepts/",
+    "canonical": "https://langchain-docs-v0-3.github.io/langgraph/concepts/",
     "alternative": [
       "/v0.1/docs/modules/agents/concepts/"
     ]
@@ -847,7 +847,7 @@ const suggestedLinks = {
     ]
   },
   "/docs/modules/agents/quick_start/": {
-    "canonical": "https://langchain-ai.github.io/langgraph/",
+    "canonical": "https://langchain-docs-v0-3.github.io/langgraph/",
     "alternative": [
       "/v0.1/docs/modules/agents/quick_start/"
     ]
@@ -901,7 +901,7 @@ const suggestedLinks = {
     ]
   },
   "/docs/modules/composition/": {
-    "canonical": "https://langchain-ai.github.io/langgraph/concepts/",
+    "canonical": "https://langchain-docs-v0-3.github.io/langgraph/concepts/",
     "alternative": [
       "/v0.1/docs/modules/composition/"
     ]
@@ -2185,7 +2185,7 @@ const suggestedLinks = {
     ]
   },
   "/docs/use_cases/code_understanding/": {
-    "canonical": "https://langchain-ai.github.io/langgraph/tutorials/code_assistant/langgraph_code_assistant/",
+    "canonical": "https://langchain-docs-v0-3.github.io/langgraph/tutorials/code_assistant/langgraph_code_assistant/",
     "alternative": [
       "/v0.1/docs/use_cases/code_understanding/"
     ]
@@ -2521,7 +2521,7 @@ const suggestedLinks = {
     ]
   },
   "/docs/use_cases/web_scraping/": {
-    "canonical": "https://langchain-ai.github.io/langgraph/tutorials/web-navigation/web_voyager/",
+    "canonical": "https://langchain-docs-v0-3.github.io/langgraph/tutorials/web-navigation/web_voyager/",
     "alternative": [
       "/v0.1/docs/use_cases/web_scraping/"
     ]
@@ -2761,7 +2761,7 @@ const suggestedLinks = {
   "/docs/modules/model_io/output_parsers/pandas_dataframe/": {"canonical": "/docs/how_to/output_parser_structured/", "alternative": ["/v0.1/docs/modules/model_io/output_parsers/types/pandas_dataframe/"]},
   "/docs/modules/model_io/output_parsers/structured/": {"canonical": "/docs/how_to/output_parser_structured/", "alternative": ["/v0.1/docs/modules/model_io/output_parsers/types/structured/"]},
   "/docs/modules/model_io/output_parsers/xml/": {"canonical": "/docs/how_to/output_parser_xml/", "alternative": ["/v0.1/docs/modules/model_io/output_parsers/types/xml/"]},
-  "/docs/use_cases/question_answering/code_understanding/": {"canonical": "https://langchain-ai.github.io/langgraph/tutorials/code_assistant/langgraph_code_assistant/", "alternative": ["/v0.1/docs/use_cases/code_understanding/"]},
+  "/docs/use_cases/question_answering/code_understanding/": {"canonical": "https://langchain-docs-v0-3.github.io/langgraph/tutorials/code_assistant/langgraph_code_assistant/", "alternative": ["/v0.1/docs/use_cases/code_understanding/"]},
   "/docs/use_cases/question_answering/document-context-aware-QA/": {"canonical": "/docs/how_to/#text-splitters", "alternative": ["/v0.1/docs/modules/data_connection/document_transformers/"]},
   "/docs/integrations/providers/alibabacloud_opensearch/": {"canonical": "/docs/integrations/providers/alibaba_cloud/"},
   "/docs/integrations/chat/pai_eas_chat_endpoint/": {"canonical": "/docs/integrations/chat/alibaba_cloud_pai_eas/"},

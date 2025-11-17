@@ -71,7 +71,7 @@ module.exports = {
         },
         {
           type: "link",
-          href: "https://langchain-ai.github.io/langgraph/",
+          href: "https://langchain-docs-v0-3.github.io/langgraph/",
           label: "🦜🕸️ LangGraph"
         },
       ],
