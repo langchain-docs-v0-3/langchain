@@ -1,26 +1,16 @@
-# Build the API reference documentation.
-#
-# Runs daily. Can also be triggered manually for immediate updates.
-#
-# Built HTML pushed to langchain-ai/langchain-api-docs-html.
-#
-# Looks for langchain-ai org repos in packages.yml and checks them out.
-# Calls prep_api_docs_build.py.
-
-name: '📚 API Docs'
-run-name: 'Build & Deploy API Reference'
+name: Deploy Docs
 
 on:
+  push:
+    branches:
+      - "*"
   workflow_dispatch:
-  schedule:
-    - cron:  '0 13 * * *'  # Runs daily at 1PM UTC (9AM EDT/6AM PDT)
+
 env:
   PYTHON_VERSION: "3.11"
 
 jobs:
-  # Only runs on main repository to prevent unnecessary builds on forks
   build:
-    if: github.repository == 'langchain-ai/langchain' || github.event_name != 'schedule'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -31,6 +21,17 @@ jobs:
         id: setup-python
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-      - name: 'Make docs'
+      - name: Make docs
         run: |
-          cd docs && yarn && yarn build
+          cd docs && yarn && yarn build && ls build
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./docs/build/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
