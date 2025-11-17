@@ -19,7 +19,7 @@ const config = {
   tagline: "LangChain Python Docs",
   favicon: "img/brand/favicon.png",
   // Set the production url of your site here
-  url: "https://langchain-docs-v0-3.github.io/langchain/",
+  url: "https://langchain-docs-v0-3.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: baseUrl,
