@@ -78,7 +78,7 @@ def _enrich_package(p: dict) -> dict | None:
 
     if p["type"] in ("B", "C"):
         p["package_url"] = (
-            f"https://python.langchain.com/api_reference/{p['name_short'].replace('-', '_')}/"
+            f"https://langchain-docs-v0-3.github.io/api_reference/{p['name_short'].replace('-', '_')}/"
         )
     else:
         p["package_url"] = f"https://pypi.org/project/{p['name']}/"

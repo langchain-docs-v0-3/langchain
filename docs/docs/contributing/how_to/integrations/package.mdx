@@ -237,16 +237,16 @@ import ChatModelSource from '../../../../src/theme/integration_template/integrat
 
         Your vector store implementation will depend on your chosen database technology.
         `langchain-core` includes a minimal
-        [in-memory vector store](https://python.langchain.com/api_reference/core/vectorstores/langchain_core.vectorstores.in_memory.InMemoryVectorStore.html)
+        [in-memory vector store](https://langchain-docs-v0-3.github.io/api_reference/core/vectorstores/langchain_core.vectorstores.in_memory.InMemoryVectorStore.html)
         that we can use as a guide. You can access the code [here](https://github.com/langchain-ai/langchain/blob/master/libs/core/langchain_core/vectorstores/in_memory.py).
 
-        All vector stores must inherit from the [VectorStore](https://python.langchain.com/api_reference/core/vectorstores/langchain_core.vectorstores.base.VectorStore.html)
+        All vector stores must inherit from the [VectorStore](https://langchain-docs-v0-3.github.io/api_reference/core/vectorstores/langchain_core.vectorstores.base.VectorStore.html)
         base class. This interface consists of methods for writing, deleting and searching
         for documents in the vector store.
 
         `VectorStore` supports a variety of synchronous and asynchronous search types (e.g.,
         nearest-neighbor or maximum marginal relevance), as well as interfaces for adding
-        documents to the store. See the [API Reference](https://python.langchain.com/api_reference/core/vectorstores/langchain_core.vectorstores.base.VectorStore.html)
+        documents to the store. See the [API Reference](https://langchain-docs-v0-3.github.io/api_reference/core/vectorstores/langchain_core.vectorstores.base.VectorStore.html)
         for all supported methods. The required methods are tabulated below:
 
         | Method/Property         | Description                                          |
@@ -331,7 +331,7 @@ or parameters to call the tool with.
 2. To take a "tool call" as generated above, and take some action and return a response
 that can be passed back to the chat model as a ToolMessage.
 
-The `Tools` class must inherit from the [BaseTool](https://python.langchain.com/api_reference/core/tools/langchain_core.tools.base.BaseTool.html#langchain_core.tools.base.BaseTool) base class. This interface has 3 properties and 2 methods that should be implemented in a
+The `Tools` class must inherit from the [BaseTool](https://langchain-docs-v0-3.github.io/api_reference/core/tools/langchain_core.tools.base.BaseTool.html#langchain_core.tools.base.BaseTool) base class. This interface has 3 properties and 2 methods that should be implemented in a
 subclass.
 
 | Method/Property         | Description                                          |
@@ -401,7 +401,7 @@ import ToolSource from '/src/theme/integration_template/integration_template/too
     <TabItem value="retrievers" label="Retrievers">
 
 Retrievers are used to retrieve documents from APIs, databases, or other sources
-based on a query. The `Retriever` class must inherit from the [BaseRetriever](https://python.langchain.com/api_reference/core/retrievers/langchain_core.retrievers.BaseRetriever.html) base class. This interface has 1 attribute and 2 methods that should be implemented in a subclass.
+based on a query. The `Retriever` class must inherit from the [BaseRetriever](https://langchain-docs-v0-3.github.io/api_reference/core/retrievers/langchain_core.retrievers.BaseRetriever.html) base class. This interface has 1 attribute and 2 methods that should be implemented in a subclass.
 
 | Method/Property         | Description                                          |
 |------------------------ |------------------------------------------------------|

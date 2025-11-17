@@ -176,7 +176,7 @@ const config = {
           },
           {
             label: "API Reference",
-            to: "https://python.langchain.com/api_reference/",
+            to: "https://langchain-docs-v0-3.github.io/api_reference/",
           },
           {
             type: "dropdown",

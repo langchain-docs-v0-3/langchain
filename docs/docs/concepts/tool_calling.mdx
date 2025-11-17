@@ -21,7 +21,7 @@ You will sometimes hear the term `function calling`. We use this term interchang
 
 ## Key concepts
 
-1. **Tool Creation:** Use the [@tool](https://python.langchain.com/api_reference/core/tools/langchain_core.tools.convert.tool.html) decorator to create a [tool](/docs/concepts/tools). A tool is an association between a function and its schema.<br/>
+1. **Tool Creation:** Use the [@tool](https://langchain-docs-v0-3.github.io/api_reference/core/tools/langchain_core.tools.convert.tool.html) decorator to create a [tool](/docs/concepts/tools). A tool is an association between a function and its schema.<br/>
 2. **Tool Binding:** The tool needs to be connected to a model that supports tool calling. This gives the model awareness of the tool and the associated input schema required by the tool.<br/>
 3. **Tool Calling:** When appropriate, the model can decide to call a tool and ensure its response conforms to the tool's input schema.<br/>
 4. **Tool Execution:** The tool can be executed using the arguments provided by the model.
@@ -114,7 +114,7 @@ result = llm_with_tools.invoke("What is 2 multiplied by 3?")
 ```
 
 As before, the output `result` will be an `AIMessage`.
-But, if the tool was called, `result` will have a `tool_calls` [attribute](https://python.langchain.com/api_reference/core/messages/langchain_core.messages.ai.AIMessage.html#langchain_core.messages.ai.AIMessage.tool_calls).
+But, if the tool was called, `result` will have a `tool_calls` [attribute](https://langchain-docs-v0-3.github.io/api_reference/core/messages/langchain_core.messages.ai.AIMessage.html#langchain_core.messages.ai.AIMessage.tool_calls).
 This attribute includes everything needed to execute the tool, including the tool name and input arguments:
 
 ```
