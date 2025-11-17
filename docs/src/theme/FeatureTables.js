@@ -882,21 +882,21 @@ const FEATURE_TABLES = {
                 link: "docling",
                 source: "Uses Docling to load and parse web pages",
                 api: "Package",
-                apiLink: "https://python.langchain.com/docs/integrations/document_loaders/docling/"
+                apiLink: "https://langchain-docs-v0-3.github.io/langchain/docs/integrations/document_loaders/docling/"
             },
             {
                 name: "Hyperbrowser",
                 link: "hyperbrowser",
                 source: "Platform for running and scaling headless browsers, can be used to scrape/crawl any site",
                 api: "API",
-                apiLink: "https://python.langchain.com/docs/integrations/document_loaders/hyperbrowser/"
+                apiLink: "https://langchain-docs-v0-3.github.io/langchain/docs/integrations/document_loaders/hyperbrowser/"
             },
             {
                 name: "AgentQL",
                 link: "agentql",
                 source: "Web interaction and structured data extraction from any web page using an AgentQL query or a Natural Language prompt",
                 api: "API",
-                apiLink: "https://python.langchain.com/docs/integrations/document_loaders/agentql/"
+                apiLink: "https://langchain-docs-v0-3.github.io/langchain/docs/integrations/document_loaders/agentql/"
             },
             {
                 name: "Oxylabs",
@@ -1001,7 +1001,7 @@ const FEATURE_TABLES = {
                 link: "docling",
                 source: "Load PDF files using Docling",
                 api: "Package",
-                apiLink: "https://python.langchain.com/docs/integrations/document_loaders/docling/"
+                apiLink: "https://langchain-docs-v0-3.github.io/langchain/docs/integrations/document_loaders/docling/"
             }
         ]
     },
@@ -1050,7 +1050,7 @@ const FEATURE_TABLES = {
                 name: "DoclingLoader",
                 link: "../../integrations/document_loaders/docling",
                 source: "Various file types (see https://ds4sd.github.io/docling/)",
-                apiLink: "https://python.langchain.com/docs/integrations/document_loaders/docling/"
+                apiLink: "https://langchain-docs-v0-3.github.io/langchain/docs/integrations/document_loaders/docling/"
             },
         ]
     },

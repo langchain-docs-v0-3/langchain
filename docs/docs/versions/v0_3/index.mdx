@@ -14,16 +14,16 @@
 
 The following features have been added during the development of 0.2.x:
 
-- Moved more integrations from `langchain-community` to their own `langchain-x` packages. This is a non-breaking change, as the legacy implementations are left in `langchain-community` and marked as deprecated. This allows us to better manage the dependencies of, test, and version these integrations. You can see all the latest integration packages in the [API reference](https://python.langchain.com/v0.2/api_reference/reference.html#integrations).
+- Moved more integrations from `langchain-community` to their own `langchain-x` packages. This is a non-breaking change, as the legacy implementations are left in `langchain-community` and marked as deprecated. This allows us to better manage the dependencies of, test, and version these integrations. You can see all the latest integration packages in the [API reference](https://langchain-docs-v0-3.github.io/langchain/v0.2/api_reference/reference.html#integrations).
 - Simplified tool definition and usage. Read more [here](https://blog.langchain.dev/improving-core-tool-interfaces-and-docs-in-langchain/).
-- Added utilities for interacting with chat models: [universal model constructor](https://python.langchain.com/v0.2/docs/how_to/chat_models_universal_init/), [rate limiter](https://python.langchain.com/v0.2/docs/how_to/chat_model_rate_limiting/), [message utilities](https://python.langchain.com/v0.2/docs/how_to/#messages),
-- Added the ability to [dispatch custom events](https://python.langchain.com/v0.2/docs/how_to/callbacks_custom_events/).
+- Added utilities for interacting with chat models: [universal model constructor](https://langchain-docs-v0-3.github.io/langchain/v0.2/docs/how_to/chat_models_universal_init/), [rate limiter](https://langchain-docs-v0-3.github.io/langchain/v0.2/docs/how_to/chat_model_rate_limiting/), [message utilities](https://langchain-docs-v0-3.github.io/langchain/v0.2/docs/how_to/#messages),
+- Added the ability to [dispatch custom events](https://langchain-docs-v0-3.github.io/langchain/v0.2/docs/how_to/callbacks_custom_events/).
 - Revamped integration docs and API reference. Read more [here](https://blog.langchain.dev/langchain-integration-docs-revamped/).
-- Marked as deprecated a number of legacy chains and added migration guides for all of them. These are slated for removal in `langchain` 1.0.0. See the deprecated chains and associated [migration guides here](https://python.langchain.com/v0.2/docs/versions/migrating_chains/).
+- Marked as deprecated a number of legacy chains and added migration guides for all of them. These are slated for removal in `langchain` 1.0.0. See the deprecated chains and associated [migration guides here](https://langchain-docs-v0-3.github.io/langchain/v0.2/docs/versions/migrating_chains/).
 
 ## How to update your code
 
-If you're using `langchain` / `langchain-community` / `langchain-core` 0.0 or 0.1, we recommend that you first [upgrade to 0.2](https://python.langchain.com/v0.2/docs/versions/v0_2/).
+If you're using `langchain` / `langchain-community` / `langchain-core` 0.0 or 0.1, we recommend that you first [upgrade to 0.2](https://langchain-docs-v0-3.github.io/langchain/v0.2/docs/versions/v0_2/).
 
 If you're using `langgraph`, upgrade to `langgraph>=0.2.20,<0.3`. This will work with either 0.2 or 0.3 versions of all the base packages.
 

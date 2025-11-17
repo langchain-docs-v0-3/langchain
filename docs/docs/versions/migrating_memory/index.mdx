@@ -48,7 +48,7 @@ Please see [How to use BaseChatMessageHistory with LangGraph](./chat_history), i
 As of LangChain v0.1, we started recommending that users rely primarily on [BaseChatMessageHistory](https://langchain-docs-v0-3.github.io/api_reference/core/runnables/langchain_core.runnables.history.RunnableWithMessageHistory.html#langchain_core.runnables.history.RunnableWithMessageHistory). `BaseChatMessageHistory` serves
 as a simple persistence for storing and retrieving messages in a conversation.
 
-At that time, the only option for orchestrating LangChain chains was via [LCEL](https://python.langchain.com/docs/how_to/#langchain-expression-language-lcel). To incorporate memory with `LCEL`, users had to use the [RunnableWithMessageHistory](https://langchain-docs-v0-3.github.io/api_reference/core/runnables/langchain_core.runnables.history.RunnableWithMessageHistory.html#langchain_core.runnables.history.RunnableWithMessageHistory) interface. While sufficient for basic chat applications, many users found the API unintuitive and challenging to use.
+At that time, the only option for orchestrating LangChain chains was via [LCEL](https://langchain-docs-v0-3.github.io/langchain/docs/how_to/#langchain-expression-language-lcel). To incorporate memory with `LCEL`, users had to use the [RunnableWithMessageHistory](https://langchain-docs-v0-3.github.io/api_reference/core/runnables/langchain_core.runnables.history.RunnableWithMessageHistory.html#langchain_core.runnables.history.RunnableWithMessageHistory) interface. While sufficient for basic chat applications, many users found the API unintuitive and challenging to use.
 
 As of LangChain v0.3, we recommend that **new** code takes advantage of LangGraph for both orchestration and persistence:
 
@@ -65,7 +65,7 @@ If you have been using `RunnableWithMessageHistory` or `BaseChatMessageHistory`,
 
 These guides assume some familiarity with the following concepts:
 - [LangGraph](https://langchain-docs-v0-3.github.io/langgraph/)
-- [v0.0.x Memory](https://python.langchain.com/v0.1/docs/modules/memory/)
+- [v0.0.x Memory](https://langchain-docs-v0-3.github.io/langchain/v0.1/docs/modules/memory/)
 - [How to add persistence ("memory") to your graph](https://langchain-docs-v0-3.github.io/langgraph/how-tos/persistence/)
 :::
 
@@ -143,10 +143,10 @@ Explore persistence with LangGraph:
 
 Add persistence with simple LCEL (favor langgraph for more complex use cases):
 
-* [How to add message history](https://python.langchain.com/docs/how_to/message_history/)
+* [How to add message history](https://langchain-docs-v0-3.github.io/langchain/docs/how_to/message_history/)
 
 Working with message history:
 
-* [How to trim messages](https://python.langchain.com/docs/how_to/trim_messages)
-* [How to filter messages](https://python.langchain.com/docs/how_to/filter_messages/)
-* [How to merge message runs](https://python.langchain.com/docs/how_to/merge_message_runs/)
+* [How to trim messages](https://langchain-docs-v0-3.github.io/langchain/docs/how_to/trim_messages)
+* [How to filter messages](https://langchain-docs-v0-3.github.io/langchain/docs/how_to/filter_messages/)
+* [How to merge message runs](https://langchain-docs-v0-3.github.io/langchain/docs/how_to/merge_message_runs/)

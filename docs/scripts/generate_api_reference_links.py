@@ -177,7 +177,7 @@ def main() -> None:
                 .replace(".md", "/")
             )
 
-            doc_url = f"https://python.langchain.com/docs/{relative_path}"
+            doc_url = f"https://langchain-docs-v0-3.github.io/langchain/docs/{relative_path}"
             for import_info in file_imports:
                 doc_title = import_info["title"]
                 class_name = import_info["imported"]
