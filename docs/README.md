@@ -1,6 +1,6 @@
 # LangChain Documentation
 
-For more information on contributing to our documentation, see the [Documentation Contributing Guide](https://python.langchain.com/docs/contributing/how_to/documentation).
+For more information on contributing to our documentation, see the [Documentation Contributing Guide](https://langchain-docs-v0-3.github.io/langchain//docs/contributing/how_to/documentation).
 
 ## Structure
 
@@ -30,7 +30,7 @@ Currently, the build process roughly follows these steps:
     Following post-processing, the HTML files are pushed to the
     `langchain-api-docs-html` repository.
 2. After the HTML files are in the `langchain-api-docs-html` repository, they are **not**
-    automatically published to the [live docs site](https://python.langchain.com/api_reference/).
+    automatically published to the [live docs site](https://langchain-docs-v0-3.github.io/langchain//api_reference/).
 
     The docs site is served by Vercel. The Vercel deployment process copies the HTML
     files from the `langchain-api-docs-html` repository and deploys them to the live

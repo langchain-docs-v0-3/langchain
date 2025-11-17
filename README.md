@@ -39,9 +39,9 @@ pip install -U langchain
 
 ---
 
-**Documentation**: To learn more about LangChain, check out [the docs](https://python.langchain.com/docs/introduction/).
+**Documentation**: To learn more about LangChain, check out [the docs](hhttps://langchain-docs-v0-3.github.io/langchain/docs/introduction/).
 
-If you're looking for more advanced customization or agent orchestration, check out [LangGraph](https://langchain-ai.github.io/langgraph/), our framework for building controllable agent workflows.
+If you're looking for more advanced customization or agent orchestration, check out [LangGraph](https://langchain-docs-v0-3.github.io/langgraph/), our framework for building controllable agent workflows.
 
 > [!NOTE]
 > Looking for the JS/TS library? Check out [LangChain.js](https://github.com/langchain-ai/langchainjs).
@@ -62,14 +62,14 @@ While the LangChain framework can be used standalone, it also integrates seamles
 To improve your LLM application development, pair LangChain with:
 
 - [LangSmith](https://www.langchain.com/langsmith) - Helpful for agent evals and observability. Debug poor-performing LLM app runs, evaluate agent trajectories, gain visibility in production, and improve performance over time.
-- [LangGraph](https://langchain-ai.github.io/langgraph/) - Build agents that can reliably handle complex tasks with LangGraph, our low-level agent orchestration framework. LangGraph offers customizable architecture, long-term memory, and human-in-the-loop workflows — and is trusted in production by companies like LinkedIn, Uber, Klarna, and GitLab.
-- [LangGraph Platform](https://docs.langchain.com/langgraph-platform) - Deploy and scale agents effortlessly with a purpose-built deployment platform for long-running, stateful workflows. Discover, reuse, configure, and share agents across teams — and iterate quickly with visual prototyping in [LangGraph Studio](https://langchain-ai.github.io/langgraph/concepts/langgraph_studio/).
+- [LangGraph](https://langchain-docs-v0-3.github.io/langgraph/) - Build agents that can reliably handle complex tasks with LangGraph, our low-level agent orchestration framework. LangGraph offers customizable architecture, long-term memory, and human-in-the-loop workflows — and is trusted in production by companies like LinkedIn, Uber, Klarna, and GitLab.
+- [LangGraph Platform](https://docs.langchain.com/langgraph-platform) - Deploy and scale agents effortlessly with a purpose-built deployment platform for long-running, stateful workflows. Discover, reuse, configure, and share agents across teams — and iterate quickly with visual prototyping in [LangGraph Studio](https://langchain-docs-v0-3.github.io/langgraph/concepts/langgraph_studio/).
 
 ## Additional resources
 
-- [Tutorials](https://python.langchain.com/docs/tutorials/): Simple walkthroughs with guided examples on getting started with LangChain.
-- [How-to Guides](https://python.langchain.com/docs/how_to/): Quick, actionable code snippets for topics such as tool calling, RAG use cases, and more.
-- [Conceptual Guides](https://python.langchain.com/docs/concepts/): Explanations of key concepts behind the LangChain framework.
+- [Tutorials](hhttps://langchain-docs-v0-3.github.io/langchain/docs/tutorials/): Simple walkthroughs with guided examples on getting started with LangChain.
+- [How-to Guides](hhttps://langchain-docs-v0-3.github.io/langchain/docs/how_to/): Quick, actionable code snippets for topics such as tool calling, RAG use cases, and more.
+- [Conceptual Guides](hhttps://langchain-docs-v0-3.github.io/langchain/docs/concepts/): Explanations of key concepts behind the LangChain framework.
 - [LangChain Forum](https://forum.langchain.com/): Connect with the community and share all of your technical questions, ideas, and feedback.
-- [API Reference](https://python.langchain.com/api_reference/): Detailed reference on navigating base packages and integrations for LangChain.
+- [API Reference](hhttps://langchain-docs-v0-3.github.io/api_reference/): Detailed reference on navigating base packages and integrations for LangChain.
 - [Chat LangChain](https://chat.langchain.com/): Ask questions & chat with our documentation.
