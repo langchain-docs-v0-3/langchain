@@ -6,14 +6,14 @@ import {
 
 const FEATURE_TABLES = {
     chat: {
-        link: "/docs/integrations/chat",
+        link: "/langchain/docs/integrations/chat",
         columns: [
             { title: "Provider", formatter: (item) => <a href={item.link}>{item.name}</a> },
-            { title: <a href="/docs/how_to/tool_calling">Tool calling</a>, formatter: (item) => item.tool_calling ? "✅" : "❌" },
-            { title: <a href="/docs/how_to/structured_output/">Structured output</a>, formatter: (item) => item.structured_output ? "✅" : "❌" },
+            { title: <a href="/langchain/docs/how_to/tool_calling">Tool calling</a>, formatter: (item) => item.tool_calling ? "✅" : "❌" },
+            { title: <a href="/langchain/docs/how_to/structured_output/">Structured output</a>, formatter: (item) => item.structured_output ? "✅" : "❌" },
             { title: "JSON mode", formatter: (item) => item.json_mode ? "✅" : "❌" },
             { title: "Local", formatter: (item) => item.local ? "✅" : "❌" },
-            { title: <a href="/docs/how_to/multimodal_inputs/">Multimodal</a>, formatter: (item) => item.multimodal ? "✅" : "❌" },
+            { title: <a href="/langchain/docs/how_to/multimodal_inputs/">Multimodal</a>, formatter: (item) => item.multimodal ? "✅" : "❌" },
             { title: "Package", formatter: (item) => <a href={item.apiLink}>{item.package}</a> },
         ],
         items: [
@@ -273,7 +273,7 @@ const FEATURE_TABLES = {
         ],
     },
     llms: {
-        link: "/docs/integrations/llms",
+        link: "/langchain/docs/integrations/llms",
         columns: [
             {
                 title: "Provider", formatter: (item) => <a href={
@@ -362,7 +362,7 @@ const FEATURE_TABLES = {
         ],
     },
     text_embedding: {
-        link: "/docs/integrations/text_embedding",
+        link: "/langchain/docs/integrations/text_embedding",
         columns: [
             { title: "Provider", formatter: (item) => <a href={item.link}>{item.name}</a> },
             { title: "Package", formatter: (item) => <a href={item.apiLink}>{item.package}</a> },
@@ -370,85 +370,85 @@ const FEATURE_TABLES = {
         items: [
             {
                 name: "AzureOpenAI",
-                link: "/docs/integrations/text_embedding/azureopenai",
+                link: "/langchain/docs/integrations/text_embedding/azureopenai",
                 package: "langchain-openai",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/openai/embeddings/langchain_openai.embeddings.azure.AzureOpenAIEmbeddings.html"
             },
             {
                 name: "Ollama",
-                link: "/docs/integrations/text_embedding/ollama",
+                link: "/langchain/docs/integrations/text_embedding/ollama",
                 package: "langchain-ollama",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/ollama/embeddings/langchain_ollama.embeddings.OllamaEmbeddings.html"
             },
             {
                 name: "Fake",
-                link: "/docs/integrations/text_embedding/fake",
+                link: "/langchain/docs/integrations/text_embedding/fake",
                 package: "langchain-core",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/core/embeddings/langchain_core.embeddings.fake.FakeEmbeddings.html"
             },
             {
                 name: "OpenAI",
-                link: "/docs/integrations/text_embedding/openai",
+                link: "/langchain/docs/integrations/text_embedding/openai",
                 package: "langchain-openai",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/openai/chat_models/langchain_openai.chat_models.base.ChatOpenAI.html"
             },
             {
                 name: "Google Gemini",
-                link: "/docs/integrations/text_embedding/google_generative_ai",
+                link: "/langchain/docs/integrations/text_embedding/google_generative_ai",
                 package: "langchain-google-genai",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/google_genai/embeddings/langchain_google_genai.embeddings.GoogleGenerativeAIEmbeddings.html"
             },
             {
                 name: "Together",
-                link: "/docs/integrations/text_embedding/together",
+                link: "/langchain/docs/integrations/text_embedding/together",
                 package: "langchain-together",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/together/embeddings/langchain_together.embeddings.TogetherEmbeddings.html"
             },
             {
                 name: "Fireworks",
-                link: "/docs/integrations/text_embedding/fireworks",
+                link: "/langchain/docs/integrations/text_embedding/fireworks",
                 package: "langchain-fireworks",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/fireworks/embeddings/langchain_fireworks.embeddings.FireworksEmbeddings.html"
             },
             {
                 name: "AI/ML API",
-                link: "/docs/integrations/text_embedding/aimlapi",
+                link: "/langchain/docs/integrations/text_embedding/aimlapi",
                 package: "langchain-aimlapi",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/aimlapi/embeddings/langchain_aimlapi.embeddings.AimlapiEmbeddings.html"
             },
             {
                 name: "MistralAI",
-                link: "/docs/integrations/text_embedding/mistralai",
+                link: "/langchain/docs/integrations/text_embedding/mistralai",
                 package: "langchain-mistralai",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/mistralai/embeddings/langchain_mistralai.embeddings.MistralAIEmbeddings.html"
             },
             {
                 name: "Cohere",
-                link: "/docs/integrations/text_embedding/cohere",
+                link: "/langchain/docs/integrations/text_embedding/cohere",
                 package: "langchain-cohere",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/community/llms/langchain_community.llms.cohere.Cohere.html"
             },
             {
                 name: "Nomic",
-                link: "/docs/integrations/text_embedding/nomic",
+                link: "/langchain/docs/integrations/text_embedding/nomic",
                 package: "langchain-nomic",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/nomic/embeddings/langchain_nomic.embeddings.NomicEmbeddings.html"
             },
             {
                 name: "Databricks",
-                link: "/docs/integrations/text_embedding/databricks",
+                link: "/langchain/docs/integrations/text_embedding/databricks",
                 package: "databricks-langchain",
                 apiLink: "https://api-docs.databricks.com/python/databricks-ai-bridge/latest/databricks_langchain.html#databricks_langchain.DatabricksEmbeddings"
             },
             {
                 name: "IBM",
-                link: "/docs/integrations/text_embedding/ibm_watsonx",
+                link: "/langchain/docs/integrations/text_embedding/ibm_watsonx",
                 package: "langchain-ibm",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/ibm/embeddings/langchain_ibm.embeddings.WatsonxEmbeddings.html"
             },
             {
                 name: "NVIDIA",
-                link: "/docs/integrations/text_embedding/nvidia_ai_endpoints",
+                link: "/langchain/docs/integrations/text_embedding/nvidia_ai_endpoints",
                 package: "langchain-nvidia",
                 apiLink: "https://langchain-docs-v0-3.github.io/api_reference/nvidia_ai_endpoints/embeddings/langchain_nvidia_ai_endpoints.embeddings.NVIDIAEmbeddings.html"
             },

@@ -1,7 +1,7 @@
 import React from "react";
 import DocPaginator from "@theme-original/DocPaginator";
 
-const BLACKLISTED_PATHS = ["/docs/how_to/", "/docs/tutorials/"];
+const BLACKLISTED_PATHS = ["/langchain/docs/how_to/", "/docs/tutorials/"];
 
 export default function DocPaginatorWrapper(props) {
   const [shouldHide, setShouldHide] = React.useState(false);

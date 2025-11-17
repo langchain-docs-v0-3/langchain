@@ -5,67 +5,67 @@ SEARCH_TOOL_FEAT_TABLE = {
     "Tavily Search": {
         "pricing": "1000 free searches/month",
         "available_data": "URL, Content, Title, Images, Answer",
-        "link": "/docs/integrations/tools/tavily_search",
+        "link": "/langchain/docs/integrations/tools/tavily_search",
     },
     "Exa Search": {
         "pricing": "1000 free searches/month",
         "available_data": "URL, Author, Title, Published Date",
-        "link": "/docs/integrations/tools/exa_search",
+        "link": "/langchain/docs/integrations/tools/exa_search",
     },
     "Bing Search": {
         "pricing": "Paid",
         "available_data": "URL, Snippet, Title",
-        "link": "/docs/integrations/tools/bing_search",
+        "link": "/langchain/docs/integrations/tools/bing_search",
     },
     "DuckDuckgoSearch": {
         "pricing": "Free",
         "available_data": "URL, Snippet, Title",
-        "link": "/docs/integrations/tools/ddg",
+        "link": "/langchain/docs/integrations/tools/ddg",
     },
     "Brave Search": {
         "pricing": "Free",
         "available_data": "URL, Snippet, Title",
-        "link": "/docs/integrations/tools/brave_search",
+        "link": "/langchain/docs/integrations/tools/brave_search",
     },
     "Google Search": {
         "pricing": "Paid",
         "available_data": "URL, Snippet, Title",
-        "link": "/docs/integrations/tools/google_search",
+        "link": "/langchain/docs/integrations/tools/google_search",
     },
     "Google Serper": {
         "pricing": "Free",
         "available_data": "URL, Snippet, Title, Search Rank, Site Links",
-        "link": "/docs/integrations/tools/google_serper",
+        "link": "/langchain/docs/integrations/tools/google_serper",
     },
     "Mojeek Search": {
         "pricing": "Paid",
         "available_data": "URL, Snippet, Title",
-        "link": "/docs/integrations/tools/mojeek_search",
+        "link": "/langchain/docs/integrations/tools/mojeek_search",
     },
     "SearxNG Search": {
         "pricing": "Free",
         "available_data": "URL, Snippet, Title, Category",
-        "link": "/docs/integrations/tools/searx_search",
+        "link": "/langchain/docs/integrations/tools/searx_search",
     },
     "You.com Search": {
         "pricing": "Free for 60 days",
         "available_data": "URL, Title, Page Content",
-        "link": "/docs/integrations/tools/you",
+        "link": "/langchain/docs/integrations/tools/you",
     },
     "SearchApi": {
         "pricing": "100 Free Searches on Sign Up",
         "available_data": "URL, Snippet, Title, Search Rank, Site Links, Authors",
-        "link": "/docs/integrations/tools/searchapi",
+        "link": "/langchain/docs/integrations/tools/searchapi",
     },
     "SerpApi": {
         "pricing": "250 Free Searches/Month",
         "available_data": "Answer",
-        "link": "/docs/integrations/tools/serpapi",
+        "link": "/langchain/docs/integrations/tools/serpapi",
     },
     "Jina Search": {
         "pricing": "1M Response Tokens Free",
         "available_data": "URL, Snippet, Title, Page Content",
-        "link": "/docs/integrations/tools/jina_search/",
+        "link": "/langchain/docs/integrations/tools/jina_search/",
     },
 }
 
@@ -75,7 +75,7 @@ CODE_INTERPRETER_TOOL_FEAT_TABLE = {
         "sandbox_lifetime": "Resets on Execution",
         "upload": True,
         "return_results": "Text",
-        "link": "/docs/integrations/tools/bearly",
+        "link": "/langchain/docs/integrations/tools/bearly",
         "self_hosting": False,
     },
     "Riza Code Interpreter": {
@@ -83,7 +83,7 @@ CODE_INTERPRETER_TOOL_FEAT_TABLE = {
         "sandbox_lifetime": "Resets on Execution",
         "upload": True,
         "return_results": "Text",
-        "link": "/docs/integrations/tools/riza",
+        "link": "/langchain/docs/integrations/tools/riza",
         "self_hosting": True,
     },
     "Azure Container Apps dynamic sessions": {
@@ -91,84 +91,84 @@ CODE_INTERPRETER_TOOL_FEAT_TABLE = {
         "sandbox_lifetime": "1 Hour",
         "upload": True,
         "return_results": "Text, Images",
-        "link": "/docs/integrations/tools/azure_dynamic_sessions",
+        "link": "/langchain/docs/integrations/tools/azure_dynamic_sessions",
         "self_hosting": False,
     },
 }
 
 PRODUCTIVITY_TOOL_FEAT_TABLE = {
     "Gmail Toolkit": {
-        "link": "/docs/integrations/tools/gmail",
+        "link": "/langchain/docs/integrations/tools/gmail",
         "pricing": "Free, with limit of 250 quota units per user per second",
     },
     "Github Toolkit": {
-        "link": "/docs/integrations/tools/github",
+        "link": "/langchain/docs/integrations/tools/github",
         "pricing": "Free",
     },
     "Gitlab Toolkit": {
-        "link": "/docs/integrations/tools/gitlab",
+        "link": "/langchain/docs/integrations/tools/gitlab",
         "pricing": "Free for personal project",
     },
     "Slack Toolkit": {
-        "link": "/docs/integrations/tools/slack",
+        "link": "/langchain/docs/integrations/tools/slack",
         "pricing": "Free",
     },
     "Jira Toolkit": {
-        "link": "/docs/integrations/tools/jira",
+        "link": "/langchain/docs/integrations/tools/jira",
         "pricing": "Free, with [rate limits](https://developer.atlassian.com/cloud/jira/platform/rate-limiting/)",
     },
     "Office365 Toolkit": {
-        "link": "/docs/integrations/tools/office365",
+        "link": "/langchain/docs/integrations/tools/office365",
         "pricing": "Free with Office365, includes [rate limits](https://learn.microsoft.com/en-us/graph/throttling-limits)",
     },
     "Twilio Tool": {
-        "link": "/docs/integrations/tools/twilio",
+        "link": "/langchain/docs/integrations/tools/twilio",
         "pricing": "Free trial, with [pay-as-you-go pricing](https://www.twilio.com/en-us/pricing) after",
     },
     "Infobip Tool": {
-        "link": "/docs/integrations/tools/infobip",
+        "link": "/langchain/docs/integrations/tools/infobip",
         "pricing": "Free trial, with variable pricing after",
     },
 }
 
 WEBBROWSING_TOOL_FEAT_TABLE = {
     "Requests Toolkit": {
-        "link": "/docs/integrations/tools/requests",
+        "link": "/langchain/docs/integrations/tools/requests",
         "interactions": False,
         "pricing": "Free",
     },
     "PlayWright Browser Toolkit": {
-        "link": "/docs/integrations/tools/playwright",
+        "link": "/langchain/docs/integrations/tools/playwright",
         "interactions": True,
         "pricing": "Free",
     },
     "MultiOn Toolkit": {
-        "link": "/docs/integrations/tools/multion",
+        "link": "/langchain/docs/integrations/tools/multion",
         "interactions": True,
         "pricing": "40 free requests/day",
     },
     "AgentQL Toolkit": {
-        "link": "/docs/integrations/tools/agentql",
+        "link": "/langchain/docs/integrations/tools/agentql",
         "interactions": True,
         "pricing": "Free trial, with pay-as-you-go and flat rate plans after",
     },
     "Hyperbrowser Browser Agent Tools": {
-        "link": "/docs/integrations/tools/hyperbrowser_browser_agent_tools",
+        "link": "/langchain/docs/integrations/tools/hyperbrowser_browser_agent_tools",
         "interactions": True,
         "pricing": "Free trial, with flat rate plans and pre-paid credits after",
     },
     "Hyperbrowser Web Scraping Tools": {
-        "link": "/docs/integrations/tools/hyperbrowser_web_scraping_tools",
+        "link": "/langchain/docs/integrations/tools/hyperbrowser_web_scraping_tools",
         "interactions": False,
         "pricing": "Free trial, with flat rate plans and pre-paid credits after",
     },
     "Oxylabs Web Scraper API": {
-        "link": "/docs/integrations/tools/oxylabs",
+        "link": "/langchain/docs/integrations/tools/oxylabs",
         "interactions": False,
         "pricing": "Free trial, with flat rate plans and pre-paid credits after",
     },
     "Anchor Browser": {
-        "link": "/docs/integrations/tools/anchor_browser",
+        "link": "/langchain/docs/integrations/tools/anchor_browser",
         "interactions": True,
         "pricing": "Free trial, with flat rate plans and pre-paid credits after",
     },
@@ -176,26 +176,26 @@ WEBBROWSING_TOOL_FEAT_TABLE = {
 
 DATABASE_TOOL_FEAT_TABLE = {
     "SQLDatabase Toolkit": {
-        "link": "/docs/integrations/tools/sql_database",
+        "link": "/langchain/docs/integrations/tools/sql_database",
         "operations": "Any SQL operation",
     },
     "Spark SQL Toolkit": {
-        "link": "/docs/integrations/tools/spark_sql",
+        "link": "/langchain/docs/integrations/tools/spark_sql",
         "operations": "Any SQL operation",
     },
     "Cassandra Database Toolkit": {
-        "link": "/docs/integrations/tools/cassandra_database",
+        "link": "/langchain/docs/integrations/tools/cassandra_database",
         "operations": "SELECT and schema introspection",
     },
     "MCP Toolbox": {
-        "link": "/docs/integrations/tools/toolbox",
+        "link": "/langchain/docs/integrations/tools/toolbox",
         "operations": "Any SQL operation",
     },
 }
 
 FINANCE_TOOL_FEAT_TABLE = {
     "GOAT": {
-        "link": "/docs/integrations/tools/goat",
+        "link": "/langchain/docs/integrations/tools/goat",
         "pricing": "Free",
         "capabilities": "Create and receive payments, purchase physical goods, make investments, and more.",
     },

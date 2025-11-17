@@ -60,7 +60,7 @@ def _generate_related_links_section(
 
 def _process_path(doc_path: Path):
     content = doc_path.read_text()
-    pattern = r"/docs/integrations/([^/]+)/([^/]+).mdx?"
+    pattern = r"/langchain/docs/integrations/([^/]+)/([^/]+).mdx?"
     match = re.search(pattern, str(doc_path))
     if match and match.group(2) != "index":
         integration_type = match.group(1)

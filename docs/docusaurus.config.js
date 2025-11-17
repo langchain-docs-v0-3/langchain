@@ -228,15 +228,15 @@ const config = {
             items: [
               {
                 label: "v0.3",
-                href: "/docs/introduction",
+                href: "/langchain/docs/introduction",
               },
               {
                 label: "v0.2",
-                href: "https://langchain-docs-v0-3.github.io/langchain/v0.2/docs/introduction",
+                href: "ttps://python.langchain.com/v0.2/docs/introduction",
               },
               {
                 label: "v0.1",
-                href: "https://langchain-docs-v0-3.github.io/langchain/v0.1/docs/get_started/introduction",
+                href: "ttps://python.langchain.com/v0.1/docs/get_started/introduction",
               },
             ],
           },

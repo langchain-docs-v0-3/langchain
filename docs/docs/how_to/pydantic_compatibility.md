@@ -6,4 +6,4 @@ Users should install Pydantic 2 and are advised to **avoid** using the `pydantic
 LangChain APIs.
 
 If you're working with prior versions of LangChain, please see the following guide
-on [Pydantic compatibility](https://langchain-docs-v0-3.github.io/langchain/v0.2/docs/how_to/pydantic_compatibility).
+on [Pydantic compatibility](ttps://python.langchain.com/v0.2/docs/how_to/pydantic_compatibility).

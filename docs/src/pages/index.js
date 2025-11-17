@@ -12,5 +12,5 @@ import { Redirect } from "@docusaurus/router";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Home() {
-  return <Redirect to={useBaseUrl("/docs/introduction/")} />;
+  return <Redirect to={useBaseUrl("/langchain/docs/introduction/")} />;
 }

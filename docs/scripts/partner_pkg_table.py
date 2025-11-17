@@ -62,7 +62,7 @@ def _enrich_package(p: dict) -> dict | None:
 
     p["js_exists"] = bool(p.get("js"))
     custom_provider_page = p.get("provider_page")
-    default_provider_page = f"/docs/integrations/providers/{p['name_short']}/"
+    default_provider_page = f"/langchain/docs/integrations/providers/{p['name_short']}/"
     default_provider_page_exists = bool(
         glob.glob(str(DOCS_DIR / f"docs/integrations/providers/{p['name_short']}.*"))
     )

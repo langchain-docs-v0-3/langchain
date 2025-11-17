@@ -246,7 +246,7 @@ html_context = {
     "github_user": "langchain-ai",  # Username
     "github_repo": "langchain",  # Repo name
     "github_version": "master",  # Version
-    "conf_py_path": "/docs/api_reference",  # Path in the checkout to the docs root
+    "conf_py_path": "/langchain/docs/api_reference",  # Path in the checkout to the docs root
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

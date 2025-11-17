@@ -22,13 +22,13 @@ export const CustomDropdown = ({ selectedOption, options, onSelect, modelType })
   const getModelTextAndLink = () => {
     switch (modelType) {
       case 'chat':
-        return { text: 'chat model', link: '/docs/integrations/chat/' };
+        return { text: 'chat model', link: '/langchain/docs/integrations/chat/' };
       case 'embeddings':
-        return { text: 'embeddings model', link: '/docs/integrations/text_embedding/' };
+        return { text: 'embeddings model', link: '/langchain/docs/integrations/text_embedding/' };
       case 'vectorstore':
-        return { text: 'vector store', link: '/docs/integrations/vectorstores/' };
+        return { text: 'vector store', link: '/langchain/docs/integrations/vectorstores/' };
       default:
-        return { text: 'chat model', link: '/docs/integrations/chat/' };
+        return { text: 'chat model', link: '/langchain/docs/integrations/chat/' };
     }
   };
 
